@@ -1,0 +1,15 @@
+{% include "header.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+<div class="top_container">
+    <img class="profile-img" src="static/img/profile.png" alt="profile-image">
+    <h2>Contact Me</h2>
+    <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+</div>
+
+
+<div class="contact_form container-fluid">
+   {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "secondary btn-lg"}) }}
+</div>
+
+{% include "footer.html" %}

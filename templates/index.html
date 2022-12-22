@@ -1,0 +1,41 @@
+{% include "header.html" %}
+
+  <div class="top_container">
+      <img class="profile-img" src="static/img/profile.png" alt="profile-image">
+      <h1>Hello, I'm Khine Lwin</h1>
+      <p>I'm a dedicated lifelong learner. I came in with zero programming knowledge, now halfway in, I've learnt a lot and finally confronted my fear of programming. I ♥ writing codes, coffee and books.</p>
+  </div>
+
+  <section id="skills">
+      <h2>About me</h2>
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="1500" pause="hover">
+            <img class="skill-img" src="static/img/laptop.png" alt="computer-img">
+            <h3>Aim: Backend Developer</h3>
+            <p>I am a doctor who start learning the fundamentals for programming at age 28, which is just what I needed as a first step for my career change!</p>
+          </div>
+          <div class="carousel-item" data-interval="1500" pause="hover">
+            <img class="skill-img" src="static/img/working.png" alt="working-img">
+            <h3>What Can I Do ?</h3>
+            <p>I specialize in Python with a basic knowledge of MySQL, HTML and CSS. I have experience in builing project with Python framework like Flask and Django.</p>
+          </div>
+          <div class="carousel-item" data-interval="1500" pause="hover">
+            <img class="skill-img" src="static/img/books.png" alt="book-img">
+            <h3>Read Fantasy Books</h3>
+            <p>One of my abilities is reading many fantasy/YA books and not getting confused with plots and characters.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>I'm a self-taught programmer, it's my love for learning code and dedication that I've come this far. If you want to hire me, please contact me as below.</p>
+      <a class="btn btn-secondary btn-lg" href="{{ url_for('contact') }}">Contact Me</a>
+    </section>
+
+{% include "footer.html" %}
+
+

@@ -1,0 +1,108 @@
+body {
+  color: #65647C;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color: #22577A;
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 30px;
+}
+
+h2, h3 {
+  color: #22577A;
+  font-size: 2.5rem;
+  font-family: font-family: 'Lobster', cursive;
+  margin-bottom: 50px;
+}
+
+a:hover {
+  color: black !important;
+}
+
+input[type="text"] {
+    text-align:center;
+}
+
+.navbar-custom .navbar-brand {
+  color: #22577A;
+}
+
+.navbar {
+  padding: 5% 10% 7%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: font-family: 'Lobster', cursive;
+  padding-left: 5%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #22577A !important;
+}
+
+.profile-img {
+  width: 15%;
+  margin-bottom: 55px;
+}
+
+.top_container {
+  padding: 3% 10% 7%;
+}
+
+.skill-img {
+  margin: 50px auto;
+}
+
+.btn {
+  margin: 50px;
+}
+
+.bottom-container {
+  padding: 3%;
+}
+
+.social-icon {
+  margin: 0 20px;
+}
+
+.note {
+  margin: 30px auto 10px;
+  font-size: 1rem;
+}
+
+.contact_form {
+  width: 55%;
+  text_align: center;
+}
+
+#skills {
+  padding: 2% 20% 10%;
+}
+
+#contact {
+  margin: 0 20%;
+}
+
+@media (max-width: 1000px) {
+  .navbar-brand {
+    margin-left: 70px;
+  }
+
+  .profile-img {
+    width: 30%;
+  }
+
+  .contact_form {
+    width: 70%;
+    text_align: center;
+  }
+}
