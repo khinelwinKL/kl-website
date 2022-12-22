@@ -4,13 +4,14 @@ from flask_bootstrap import Bootstrap
 from wtforms import StringField, SubmitField
 from wtforms.validators import Email, DataRequired, Length
 import smtplib
+import os
 
 app = Flask(__name__)
 app.secret_key = "bingchulovesgyugyuandmandu"
 bootstrap = Bootstrap(app)
 
-MY_EMAIL = "gyumandu@gmail.com"
-MY_PASSWORD = "lzkmljvevabvwewd"
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 
 class ContactFrom(FlaskForm):
